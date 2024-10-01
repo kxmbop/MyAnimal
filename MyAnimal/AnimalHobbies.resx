@@ -1,0 +1,576 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 25.8pt</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 7</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 35</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift Condensed, 18pt, style=Bold</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 12</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 29</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>--- ANIMAL HOBBIES ---</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="animalHobbiesDataGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 76</value>
+  </data>
+  <data name="animalHobbiesDataGrid.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="animalHobbiesDataGrid.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="animalHobbiesDataGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 118</value>
+  </data>
+  <data name="animalHobbiesDataGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;animalHobbiesDataGrid.Name" xml:space="preserve">
+    <value>animalHobbiesDataGrid</value>
+  </data>
+  <data name="&gt;&gt;animalHobbiesDataGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;animalHobbiesDataGrid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;animalHobbiesDataGrid.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift Condensed, 12pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 55</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 19</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Hobbies</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift Condensed, 12pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 55</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 19</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Animal Hobbies</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="addbt.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="addbt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift Condensed, 12.75pt, style=Bold</value>
+  </data>
+  <data name="addbt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 200</value>
+  </data>
+  <data name="addbt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 28</value>
+  </data>
+  <data name="addbt.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="addbt.Text" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="&gt;&gt;addbt.Name" xml:space="preserve">
+    <value>addbt</value>
+  </data>
+  <data name="&gt;&gt;addbt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addbt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addbt.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="delbt.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="delbt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift Condensed, 12.75pt, style=Bold</value>
+  </data>
+  <data name="delbt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 200</value>
+  </data>
+  <data name="delbt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 28</value>
+  </data>
+  <data name="delbt.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="delbt.Text" xml:space="preserve">
+    <value>DEL</value>
+  </data>
+  <data name="&gt;&gt;delbt.Name" xml:space="preserve">
+    <value>delbt</value>
+  </data>
+  <data name="&gt;&gt;delbt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delbt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;delbt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="savehubbt.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="savehubbt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift SemiCondensed, 11.25pt, style=Bold</value>
+  </data>
+  <data name="savehubbt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 237</value>
+  </data>
+  <data name="savehubbt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 26</value>
+  </data>
+  <data name="savehubbt.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="savehubbt.Text" xml:space="preserve">
+    <value>SAVE</value>
+  </data>
+  <data name="&gt;&gt;savehubbt.Name" xml:space="preserve">
+    <value>savehubbt</value>
+  </data>
+  <data name="&gt;&gt;savehubbt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;savehubbt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;savehubbt.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hobbyGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 77</value>
+  </data>
+  <data name="hobbyGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="hobbyGridView.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="hobbyGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 117</value>
+  </data>
+  <data name="hobbyGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;hobbyGridView.Name" xml:space="preserve">
+    <value>hobbyGridView</value>
+  </data>
+  <data name="&gt;&gt;hobbyGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hobbyGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hobbyGridView.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="AnimalId2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift Condensed, 10.2pt</value>
+  </data>
+  <data name="AnimalId2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 76</value>
+  </data>
+  <data name="AnimalId2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 24</value>
+  </data>
+  <data name="AnimalId2.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="AnimalId2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;AnimalId2.Name" xml:space="preserve">
+    <value>AnimalId2</value>
+  </data>
+  <data name="&gt;&gt;AnimalId2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AnimalId2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AnimalId2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="HobbyId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift Condensed, 10.2pt</value>
+  </data>
+  <data name="HobbyId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 90</value>
+  </data>
+  <data name="HobbyId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 24</value>
+  </data>
+  <data name="HobbyId.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="HobbyId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;HobbyId.Name" xml:space="preserve">
+    <value>HobbyId</value>
+  </data>
+  <data name="&gt;&gt;HobbyId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HobbyId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HobbyId.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="hobbyId2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift Condensed, 10.2pt</value>
+  </data>
+  <data name="hobbyId2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 90</value>
+  </data>
+  <data name="hobbyId2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 24</value>
+  </data>
+  <data name="hobbyId2.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="hobbyId2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;hobbyId2.Name" xml:space="preserve">
+    <value>hobbyId2</value>
+  </data>
+  <data name="&gt;&gt;hobbyId2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hobbyId2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hobbyId2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAABpgAAANoCAYAAADUDenmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAIBRJREFUeF7t2TENxEAAxMBvQ+SBhD+nSxFtHQMYS4PCv+t/HwAAAAAAAPiyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkG
+        EwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAA
+        AAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYAAAAAAACSZTABAAAAAACQ
+        LIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAAAEiWwQQAAAAAAECyDCYA
+        AAAAAACSZTABAAAAAACQLIMJAAAAAACAZBlMAAAAAAAAJMtgAgAAAAAAIFkGEwAAAAAAAMkymAAAAAAA
+        AEjeznkAoCyDJRDtN1MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>513, 273</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AnimalHobbies</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AnimalHobbies</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
